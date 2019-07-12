@@ -15,3 +15,5 @@ tags:
 # Hello
 
 This is an example of what a post would be.
+
+![](/img/post-bg-2015.jpg)
