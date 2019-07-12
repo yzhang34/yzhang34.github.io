@@ -3,7 +3,7 @@ layout:     post
 title:      My research summary
 subtitle:   Summary of my research
 date:       2019-07-10
-author:     BY
+author:     yzhang34
 header-img: img/post-bg-2015.jpg
 catalog: true
 tags:
