@@ -4,7 +4,7 @@ SEOTitle: Yide Zhang | Ph.D. Candidate at University of Notre Dame
 header-img: img/post-bg-universe.jpg
 email: yzhang34@nd.com
 description: "Here is a description."
-keyword: "Yide Zhang, 张以德, microscopy, fluorescence, lifetime, imaging, deep learning"
+keyword: "Yide Zhang, microscopy, fluorescence, lifetime, imaging, deep learning"
 url: "https://yzhang34.github.io"          # your host, for absolute URL
 baseurl: ""      # for example, '/blog' if your blog hosted on 'host/blog'
 github_repo: "https://github.com/yzhang34/yzhang34.github.io.git" # you code repository
@@ -55,22 +55,9 @@ kramdown:
 
 
 
-# 评论系统
 # Disqus（https://disqus.com/）
 disqus_username: yzhang34
 
-# Gitalk
-# gitalk:
-#   enable: true    #是否开启Gitalk评论
-#   clientID: f2c84e7629bb1446c1a4                            #生成的clientID
-#   clientSecret: ca6d6139d1e1b8c43f8b2e19492ddcac8b322d0d    #生成的clientSecret
-#   repo: yzhang34.github.io    #仓库名称
-#   owner: yzhang34    #github用户名
-#   admin: yzhang34
-#   distractionFreeMode: true #是否启用类似FB的阴影遮罩
-
-
-# 统计
 
 # Analytics settings
 # Baidu Analytics
@@ -78,15 +65,15 @@ disqus_username: yzhang34
 
 # Google Analytics
 ga_track_id: 'UA-143764431-1'            # Format: UA-xxxxxx-xx
-ga_domain: auto               # 默认的是 auto, 这里我是自定义了的域名，你如果没有自己的域名，需要改成auto
+ga_domain: auto        
 
 
 
 
 
 # Featured Tags
-featured-tags: true                     # 是否使用首页标签
-featured-condition-size: 0              # 相同标签数量大于这个数，才会出现在首页
+featured-tags: true                   
+featured-condition-size: 0           
 
 
 
