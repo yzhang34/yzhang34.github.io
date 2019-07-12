@@ -8,64 +8,23 @@ header-img: "img/post-bg-universe.jpg"
 
 
 <div class="en post-container">
-    <blockquote><p>Here is my GitHub site. <br>
-    Yet another Life-long Student.</p></blockquote>
+    <blockquote><p>Here is my website. <br>
+    Hosted on GitHub.</p></blockquote>
 
     <p>Hi, I am <strong>Yide Zhang</strong>. I am a PhD candidate at Universty of Notre Dame.</p>
 
-    <p>This is my personal blog, through making Github Pages and Jekyll.My GitHub  👉 <a href="http://github.com/yzhang34">Github·yzhang34</a>.</p>
+    <p>This website is made with Github Pages and Jekyll. </p>
+    <p> <a href="http://github.com/yzhang34">Github·yzhang34</a>. </p>    
     
-    <p>I am a PhD candidate.</p>
 
-    <h5>Talks</h5>
+    <h5>Links</h5>
 
     <ul>
     <li><a href="https://github.com">GitHub</a></li>
-    <li><a href="http://jekyll.com.cn/">jekyll</a></li>
+    <li><a href="https://jekyllrb.com/">jekyll</a></li>
     <li><a href="https://pages.github.com/">GitHub Pages</a></li>
-    <li><a href="https://yzhang34.github.io">BY</a></li>
     </ul>
 </div>
-
-<!-- Handle Language Change -->
-<script type="text/javascript">
-    // get nodes
-    var $zh = document.querySelector(".zh");
-    var $en = document.querySelector(".en");
-    var $select = document.querySelector("select");
-
-    // bind hashchange event
-    window.addEventListener('hashchange', _render);
-
-    // handle render
-    function _render(){
-        var _hash = window.location.hash;
-        // en
-        if(_hash == "#en"){
-            $select.selectedIndex = 1;
-            $en.style.display = "block";
-            $zh.style.display = "none";
-        // zh by default
-        }else{
-            // not trigger onChange, otherwise cause a loop call.
-            $select.selectedIndex = 0;
-            $zh.style.display = "block";
-            $en.style.display = "none";
-        }
-    }
-
-    // handle select change
-    function onLanChange(index){
-        if(index == 0){
-            window.location.hash = "#zh"
-        }else{
-            window.location.hash = "#en"
-        }
-    }
-
-    // init
-    _render();
-</script>
 
 
 {% if site.disqus.enable %}
