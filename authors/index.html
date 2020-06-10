@@ -38,7 +38,7 @@
   
   
   
-  <meta name="theme-color" content="#3f51b5">
+  <meta name="theme-color" content="#2962ff">
   
 
   
@@ -208,6 +208,44 @@
 
 
 
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143764431-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-143764431-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
   
 
 
@@ -215,12 +253,12 @@
   
 
   
-  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Academic">
+  <link rel="alternate" href="/authors/index.xml" type="application/rss+xml" title="Yide Zhang&#39;s Homepage">
   
 
   <link rel="manifest" href="/index.webmanifest">
-  <link rel="icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_32x32_fill_lanczos_center_2.png">
-  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_192x192_fill_lanczos_center_2.png">
+  <link rel="icon" type="image/png" href="/images/icon_hu98965aae4d0a5a26a6c23a6b191b0997_54797_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu98965aae4d0a5a26a6c23a6b191b0997_54797_192x192_fill_lanczos_center_2.png">
 
   <link rel="canonical" href="https://yzhang34.github.io/authors/">
 
@@ -237,11 +275,14 @@
   
   <meta property="twitter:card" content="summary">
   
-  <meta property="og:site_name" content="Academic">
+  <meta property="twitter:site" content="@yzhang34">
+  <meta property="twitter:creator" content="@yzhang34">
+  
+  <meta property="og:site_name" content="Yide Zhang&#39;s Homepage">
   <meta property="og:url" content="https://yzhang34.github.io/authors/">
-  <meta property="og:title" content="Authors | Academic">
-  <meta property="og:description" content="Postdoctoral Scholar"><meta property="og:image" content="https://yzhang34.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png">
-  <meta property="twitter:image" content="https://yzhang34.github.io/images/icon_hu0b7a4cb9992c9ac0e91bd28ffd38dd00_9727_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  <meta property="og:title" content="Authors | Yide Zhang&#39;s Homepage">
+  <meta property="og:description" content="Postdoctoral Scholar"><meta property="og:image" content="https://yzhang34.github.io/images/icon_hu98965aae4d0a5a26a6c23a6b191b0997_54797_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://yzhang34.github.io/images/icon_hu98965aae4d0a5a26a6c23a6b191b0997_54797_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
   
     
   
@@ -260,7 +301,7 @@
 
 
 
-  <title>Authors | Academic</title>
+  <title>Authors | Yide Zhang&#39;s Homepage</title>
 
 </head>
 
@@ -311,7 +352,7 @@
 
     
     <div class="d-none d-lg-inline-flex">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Yide Zhang&#39;s Homepage</a>
     </div>
     
 
@@ -324,7 +365,7 @@
 
     
     <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
-      <a class="navbar-brand" href="/">Academic</a>
+      <a class="navbar-brand" href="/">Yide Zhang&#39;s Homepage</a>
     </div>
     
 
@@ -476,6 +517,28 @@
 
         <li class="nav-item">
           <a class="nav-link " href="/#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
         </li>
 
         
@@ -656,6 +719,8 @@
 
     
     
+    <script id="dsq-count-scr" src="https://yzhang34.disqus.com/count.js" async></script>
+    
 
     
     
@@ -687,7 +752,7 @@
   
 
   <p class="powered-by">
-    
+    Contents © 2020 Yide Zhang
   </p>
 
   
