@@ -5,7 +5,7 @@
     <link>https://yzhang34.github.io/tag/project-overview/</link>
       <atom:link href="https://yzhang34.github.io/tag/project-overview/index.xml" rel="self" type="application/rss+xml" />
     <description>Project Overview</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2020 Yide Zhang </copyright><lastBuildDate>Sun, 15 Sep 2019 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2020 Yide Zhang </copyright><lastBuildDate>Wed, 01 Jan 2020 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yzhang34.github.io/images/icon_hu98965aae4d0a5a26a6c23a6b191b0997_54797_512x512_fill_lanczos_center_2.png</url>
       <title>Project Overview</title>
@@ -14,9 +14,9 @@
     
     <item>
       <title>Overview of my PhD projects</title>
-      <link>https://yzhang34.github.io/project/nd-projects-overview/</link>
-      <pubDate>Sun, 15 Sep 2019 00:00:00 +0000</pubDate>
-      <guid>https://yzhang34.github.io/project/nd-projects-overview/</guid>
+      <link>https://yzhang34.github.io/post/nd-projects-overview/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/post/nd-projects-overview/</guid>
       <description>&lt;h2 id=&#34;multiphoton-microscopy-mpm&#34;&gt;Multiphoton microscopy (MPM)&lt;/h2&gt;
 &lt;p&gt;Multiphoton microscopy (MPM) is a widely used in vivo imaging technique in biological and medical applications. In the case of two-photon excitation fluorescence (2PEF) microscopy, two photons excite a fluorophore, which in turn emits a single higher-energy photon. The rate of 2PEF depends quadratically on the excitation intensity, thus enabling the axial localization of excitation in the vicinity of the focal plane. The 2PEF generally uses near-infrared (NIR) excitation, which experiences less scattering in tissue than shorter-wavelength light and does not cause background autofluorescence. A comparison between single-photon and 2PEF can be seen in the figure below, where 2PEF has a much higher localization capability. Therefore, out-of-focus fluorescence is avoided, and the overall photobleaching and phototoxicity in thick samples are reduced.
 &lt;img src=&#34;https://yzhang34.github.io/img/Multiphoton_Picture.png&#34; alt=&#34;Multiphoton_Picture&#34;&gt;&lt;/p&gt;
