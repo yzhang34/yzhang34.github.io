@@ -63,6 +63,16 @@
   </url>
   
   <url>
+    <loc>https://yzhang34.github.io/project/nd-projects-overview/</loc>
+    <lastmod>2019-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yzhang34.github.io/tag/project-overview/</loc>
+    <lastmod>2019-09-15T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://yzhang34.github.io/project/kmeans-flim-phasors/</loc>
     <lastmod>2019-08-01T00:00:00+00:00</lastmod>
   </url>
@@ -93,17 +103,7 @@
   </url>
   
   <url>
-    <loc>https://yzhang34.github.io/author/admin/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yzhang34.github.io/publication/preprint/</loc>
-    <lastmod>2019-04-07T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yzhang34.github.io/authors/</loc>
     <lastmod>2019-04-07T00:00:00+00:00</lastmod>
   </url>
   
@@ -153,16 +153,6 @@
   </url>
   
   <url>
-    <loc>https://yzhang34.github.io/tag/deep-learning/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://yzhang34.github.io/project/internal/</loc>
-    <lastmod>2016-04-27T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yzhang34.github.io/tag/academic/</loc>
     <lastmod>2019-04-17T00:00:00+00:00</lastmod>
   </url>
@@ -203,11 +193,6 @@
   </url>
   
   <url>
-    <loc>https://yzhang34.github.io/author/robert-ford/</loc>
-    <lastmod>2015-09-01T00:00:00+00:00</lastmod>
-  </url>
-  
-  <url>
     <loc>https://yzhang34.github.io/publication-type/1/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
   </url>
@@ -215,6 +200,10 @@
   <url>
     <loc>https://yzhang34.github.io/publication/conference-paper/</loc>
     <lastmod>2013-07-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://yzhang34.github.io/authors/</loc>
   </url>
   
   <url>
