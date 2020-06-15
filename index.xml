@@ -77,6 +77,30 @@
     </item>
     
     <item>
+      <title>Analysis software for instant FLIM</title>
+      <link>https://yzhang34.github.io/project/instant-flim-analysis/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/project/instant-flim-analysis/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Control software for instant FLIM</title>
+      <link>https://yzhang34.github.io/project/instant-flim-control/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/project/instant-flim-control/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>K-means clustering of FLIM phasor</title>
+      <link>https://yzhang34.github.io/project/kmeans-flim-phasors/</link>
+      <pubDate>Thu, 01 Aug 2019 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/project/kmeans-flim-phasors/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Writing technical content in Academic</title>
       <link>https://yzhang34.github.io/post/writing-technical-content/</link>
       <pubDate>Fri, 12 Jul 2019 00:00:00 +0000</pubDate>
@@ -330,6 +354,14 @@ You found me!
     </item>
     
     <item>
+      <title>Fluorescence Microscopy Denoising (FMD) dataset</title>
+      <link>https://yzhang34.github.io/project/denoising-fluorescence/</link>
+      <pubDate>Sat, 01 Jun 2019 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/project/denoising-fluorescence/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>An example preprint / working paper</title>
       <link>https://yzhang34.github.io/publication/preprint/</link>
       <pubDate>Sun, 07 Apr 2019 00:00:00 +0000</pubDate>
@@ -342,6 +374,14 @@ You found me!
 &lt;p&gt;Supplementary notes can be added here, including 
 &lt;a href=&#34;https://sourcethemes.com/academic/docs/writing-markdown-latex/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;code and math&lt;/a&gt;.&lt;/p&gt;
 </description>
+    </item>
+    
+    <item>
+      <title>Deconvolution stepwise optical saturation (DeSOS) microscopy</title>
+      <link>https://yzhang34.github.io/project/desos/</link>
+      <pubDate>Fri, 01 Mar 2019 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/project/desos/</guid>
+      <description></description>
     </item>
     
     <item>
@@ -528,18 +568,34 @@ Three
     </item>
     
     <item>
-      <title>External Project</title>
-      <link>https://yzhang34.github.io/project/external-project/</link>
-      <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://yzhang34.github.io/project/external-project/</guid>
+      <title>Stepwise optical saturation (SOS) microscopy</title>
+      <link>https://yzhang34.github.io/project/two-step-sos-sim/</link>
+      <pubDate>Sun, 01 Apr 2018 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/project/two-step-sos-sim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Saturation-compensated FLIM</title>
+      <link>https://yzhang34.github.io/project/saturation-compensated-flim/</link>
+      <pubDate>Sun, 01 Jan 2017 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/project/saturation-compensated-flim/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>SNR of MPM-FD-FLIM</title>
+      <link>https://yzhang34.github.io/project/mpm-fd-flim-snr/</link>
+      <pubDate>Fri, 01 Jul 2016 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/project/mpm-fd-flim-snr/</guid>
       <description></description>
     </item>
     
     <item>
       <title>Internal Project</title>
-      <link>https://yzhang34.github.io/project/internal-project/</link>
+      <link>https://yzhang34.github.io/project/internal/</link>
       <pubDate>Wed, 27 Apr 2016 00:00:00 +0000</pubDate>
-      <guid>https://yzhang34.github.io/project/internal-project/</guid>
+      <guid>https://yzhang34.github.io/project/internal/</guid>
       <description>&lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis posuere tellus ac convallis placerat. Proin tincidunt magna sed ex sollicitudin condimentum. Sed ac faucibus dolor, scelerisque sollicitudin nisi. Cras purus urna, suscipit quis sapien eu, pulvinar tempor diam. Quisque risus orci, mollis id ante sit amet, gravida egestas nisl. Sed ac tempus magna. Proin in dui enim. Donec condimentum, sem id dapibus fringilla, tellus enim condimentum arcu, nec volutpat est felis vel metus. Vestibulum sit amet erat at nulla eleifend gravida.&lt;/p&gt;
 &lt;p&gt;Nullam vel molestie justo. Curabitur vitae efficitur leo. In hac habitasse platea dictumst. Sed pulvinar mauris dui, eget varius purus congue ac. Nulla euismod, lorem vel elementum dapibus, nunc justo porta mi, sed tempus est est vel tellus. Nam et enim eleifend, laoreet sem sit amet, elementum sem. Morbi ut leo congue, maximus velit ut, finibus arcu. In et libero cursus, rutrum risus non, molestie leo. Nullam congue quam et volutpat malesuada. Sed risus tortor, pulvinar et dictum nec, sodales non mi. Phasellus lacinia commodo laoreet. Nam mollis, erat in feugiat consectetur, purus eros egestas tellus, in auctor urna odio at nibh. Mauris imperdiet nisi ac magna convallis, at rhoncus ligula cursus.&lt;/p&gt;
 &lt;p&gt;Cras aliquam rhoncus ipsum, in hendrerit nunc mattis vitae. Duis vitae efficitur metus, ac tempus leo. Cras nec fringilla lacus. Quisque sit amet risus at ipsum pharetra commodo. Sed aliquam mauris at consequat eleifend. Praesent porta, augue sed viverra bibendum, neque ante euismod ante, in vehicula justo lorem ac eros. Suspendisse augue libero, venenatis eget tincidunt ut, malesuada at lorem. Donec vitae bibendum arcu. Aenean maximus nulla non pretium iaculis. Quisque imperdiet, nulla in pulvinar aliquet, velit quam ultrices quam, sit amet fringilla leo sem vel nunc. Mauris in lacinia lacus.&lt;/p&gt;
