@@ -5,7 +5,7 @@
     <link>https://yzhang34.github.io/tag/super-resolution/</link>
       <atom:link href="https://yzhang34.github.io/tag/super-resolution/index.xml" rel="self" type="application/rss+xml" />
     <description>Super-resolution</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2020 Yide Zhang </copyright><lastBuildDate>Thu, 06 Feb 2020 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2021 Yide Zhang </copyright><lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yzhang34.github.io/images/icon_hu98965aae4d0a5a26a6c23a6b191b0997_54797_512x512_fill_lanczos_center_2.png</url>
       <title>Super-resolution</title>
@@ -13,11 +13,62 @@
     </image>
     
     <item>
-      <title>High-speed, long-term, 4D in vivo lifetime imaging in intact and injured zebrafish and mouse brains by instant FLIM</title>
-      <link>https://yzhang34.github.io/publication/r1-2020-instantflim/</link>
-      <pubDate>Thu, 06 Feb 2020 00:00:00 +0000</pubDate>
-      <guid>https://yzhang34.github.io/publication/r1-2020-instantflim/</guid>
+      <title>Instant FLIM enables 4D in vivo lifetime imaging of intact and injured zebrafish and mouse brains</title>
+      <link>https://yzhang34.github.io/publication/j15-2021-optica/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/j15-2021-optica/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep learning-based super-resolution fluorescence microscopy on small datasets</title>
+      <link>https://yzhang34.github.io/publication/c18-2021-pw2/</link>
+      <pubDate>Tue, 02 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/c18-2021-pw2/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Overcoming the fundamental limitation of frequency-domain fluorescence lifetime imaging microscopy spatial resolution</title>
+      <link>https://yzhang34.github.io/publication/c17-2021-pw1/</link>
+      <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/c17-2021-pw1/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
   &lt;/div&gt;
