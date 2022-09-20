@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>PAT | Yide Zhang&#39;s Homepage</title>
-    <link>https://yzhang34.github.io/tag/pat/</link>
-      <atom:link href="https://yzhang34.github.io/tag/pat/index.xml" rel="self" type="application/rss+xml" />
-    <description>PAT</description>
+    <title>Yilin Luo | Yide Zhang&#39;s Homepage</title>
+    <link>https://yzhang34.github.io/author/yilin-luo/</link>
+      <atom:link href="https://yzhang34.github.io/author/yilin-luo/index.xml" rel="self" type="application/rss+xml" />
+    <description>Yilin Luo</description>
     <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2022 Yide Zhang </copyright><lastBuildDate>Mon, 19 Sep 2022 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yzhang34.github.io/images/icon_hu98965aae4d0a5a26a6c23a6b191b0997_54797_512x512_fill_lanczos_center_2.png</url>
-      <title>PAT</title>
-      <link>https://yzhang34.github.io/tag/pat/</link>
+      <title>Yilin Luo</title>
+      <link>https://yzhang34.github.io/author/yilin-luo/</link>
     </image>
     
     <item>
@@ -17,27 +17,6 @@
       <link>https://yzhang34.github.io/publication/j18-2022-nbme/</link>
       <pubDate>Mon, 19 Sep 2022 00:00:00 +0000</pubDate>
       <guid>https://yzhang34.github.io/publication/j18-2022-nbme/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>Snapshot photoacoustic topography through an ergodic relay of optical absorption in vivo</title>
-      <link>https://yzhang34.github.io/publication/j14-2021-nprot/</link>
-      <pubDate>Sat, 01 May 2021 00:00:00 +0000</pubDate>
-      <guid>https://yzhang34.github.io/publication/j14-2021-nprot/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
