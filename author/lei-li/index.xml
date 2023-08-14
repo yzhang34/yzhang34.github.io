@@ -5,12 +5,56 @@
     <link>https://yzhang34.github.io/author/lei-li/</link>
       <atom:link href="https://yzhang34.github.io/author/lei-li/index.xml" rel="self" type="application/rss+xml" />
     <description>Lei Li</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2023 Yide Zhang </copyright><lastBuildDate>Thu, 01 Dec 2022 00:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2023 Yide Zhang </copyright><lastBuildDate>Fri, 28 Apr 2023 00:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yzhang34.github.io/images/icon_hu98965aae4d0a5a26a6c23a6b191b0997_54797_512x512_fill_lanczos_center_2.png</url>
       <title>Lei Li</title>
       <link>https://yzhang34.github.io/author/lei-li/</link>
     </image>
+    
+    <item>
+      <title>Quantum microscopy of cells at the Heisenberg limit</title>
+      <link>https://yzhang34.github.io/publication/j24-2023-nc/</link>
+      <pubDate>Fri, 28 Apr 2023 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/j24-2023-nc/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Needle-shaped beam optical-resolution photoacoustic microscopy with an extended depth of field</title>
+      <link>https://yzhang34.github.io/publication/c21-2023-pw1/</link>
+      <pubDate>Wed, 01 Feb 2023 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/c21-2023-pw1/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
     
     <item>
       <title>Optical-resolution photoacoustic microscopy with a needle-shaped beam</title>
