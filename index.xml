@@ -5,7 +5,7 @@
     <link>https://yzhang34.github.io/</link>
       <atom:link href="https://yzhang34.github.io/index.xml" rel="self" type="application/rss+xml" />
     <description>Yide Zhang&#39;s Homepage</description>
-    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2023 Yide Zhang </copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2024 Yide Zhang </copyright><lastBuildDate>Sat, 01 Jun 2030 13:00:00 +0000</lastBuildDate>
     <image>
       <url>https://yzhang34.github.io/images/icon_hu98965aae4d0a5a26a6c23a6b191b0997_54797_512x512_fill_lanczos_center_2.png</url>
       <title>Yide Zhang&#39;s Homepage</title>
@@ -77,10 +77,83 @@
     </item>
     
     <item>
-      <title>Single-shot 3D photoacoustic tomography using a single-element detector for ultrafast imaging of hemodynamics</title>
-      <link>https://yzhang34.github.io/publication/j25-2023-nbme/</link>
-      <pubDate>Mon, 16 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>https://yzhang34.github.io/publication/j25-2023-nbme/</guid>
+      <title>Quantum imaging of biological organisms through spatial and polarization entanglement</title>
+      <link>https://yzhang34.github.io/publication/j27-2024-sa/</link>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/j27-2024-sa/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Ultrafast single-shot 3D photoacoustic tomography in vivo using a single-element detector</title>
+      <link>https://yzhang34.github.io/publication/c24-2024-pw/</link>
+      <pubDate>Sun, 28 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/c24-2024-pw/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+&lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+
+
+Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Single-shot 3D photoacoustic tomography based on a single-element detector for ultrafast imaging of hemodynamics</title>
+      <link>https://yzhang34.github.io/post/nature-pacter/</link>
+      <pubDate>Mon, 04 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/post/nature-pacter/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Ultrafast longitudinal imaging of haemodynamics via single-shot volumetric photoacoustic tomography with a single-element detector</title>
+      <link>https://yzhang34.github.io/publication/j26-2023-nbme/</link>
+      <pubDate>Thu, 30 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/j26-2023-nbme/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>Deep learning-enhanced microscopy with extended depth-of-field</title>
+      <link>https://yzhang34.github.io/publication/j25-2023-lsa/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/j25-2023-lsa/</guid>
       <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
   &lt;div&gt;
     Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
@@ -571,9 +644,38 @@ Supplementary notes can be added here, including [code and math](https://sourcet
     </item>
     
     <item>
+      <title>Resolution enhancement of transmission electron microscopy by super-resolution radial fluctuations</title>
+      <link>https://yzhang34.github.io/publication/j12-2020-apl/</link>
+      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/publication/j12-2020-apl/</guid>
+      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
+  &lt;div&gt;
+    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
+  &lt;/div&gt;
+&lt;/div&gt;
+ --&gt;
+&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
+</description>
+    </item>
+    
+    <item>
+      <title>“Publish or perish” will not perish</title>
+      <link>https://yzhang34.github.io/post/nature-publish-or-perish/</link>
+      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
+      <guid>https://yzhang34.github.io/post/nature-publish-or-perish/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>Overview of my PhD projects</title>
       <link>https://yzhang34.github.io/post/nd-projects-overview/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 01 Sep 2019 00:00:00 +0000</pubDate>
       <guid>https://yzhang34.github.io/post/nd-projects-overview/</guid>
       <description>&lt;h2 id=&#34;multiphoton-microscopy-mpm&#34;&gt;Multiphoton microscopy (MPM)&lt;/h2&gt;
 &lt;p&gt;Multiphoton microscopy (MPM) is a widely used in vivo imaging technique in biological and medical applications. In the case of two-photon excitation fluorescence (2PEF) microscopy, two photons excite a fluorophore, which in turn emits a single higher-energy photon. The rate of 2PEF depends quadratically on the excitation intensity, thus enabling the axial localization of excitation in the vicinity of the focal plane. The 2PEF generally uses near-infrared (NIR) excitation, which experiences less scattering in tissue than shorter-wavelength light and does not cause background autofluorescence. A comparison between single-photon and 2PEF can be seen in the figure below, where 2PEF has a much higher localization capability. Therefore, out-of-focus fluorescence is avoided, and the overall photobleaching and phototoxicity in thick samples are reduced.
@@ -658,35 +760,6 @@ absorption, scattering, photobleaching, and fluctuations in fluorophore concentr
 &lt;li&gt;&lt;strong&gt;Yide Zhang&lt;/strong&gt;, Sergei Rouvimov, Xiaotong Yuan, Karla Gonzalez-Serrano, Alan C. Seabaugh, and Scott S. Howard, &amp;ldquo;Resolution enhancement of transmission electron microscopy by super-resolution radial fluctuations&amp;rdquo;, &lt;em&gt;Applied Physics Letters&lt;/em&gt;, vol. 116, no. 4, pp. 044105, Jan. 2020, DOI: 10.1063/1.5128353.&lt;/li&gt;
 &lt;/ul&gt;
 </description>
-    </item>
-    
-    <item>
-      <title>Resolution enhancement of transmission electron microscopy by super-resolution radial fluctuations</title>
-      <link>https://yzhang34.github.io/publication/j12-2020-apl/</link>
-      <pubDate>Wed, 01 Jan 2020 00:00:00 +0000</pubDate>
-      <guid>https://yzhang34.github.io/publication/j12-2020-apl/</guid>
-      <description>&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Cite&lt;/em&gt; button above to demo the feature to enable visitors to import publication metadata into their reference management software.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- &lt;div class=&#34;alert alert-note&#34;&gt;
-  &lt;div&gt;
-    Click the &lt;em&gt;Slides&lt;/em&gt; button above to demo Academic&amp;rsquo;s Markdown slides feature.
-  &lt;/div&gt;
-&lt;/div&gt;
- --&gt;
-&lt;!-- Supplementary notes can be added here, including [code and math](https://sourcethemes.com/academic/docs/writing-markdown-latex/). --&gt;
-</description>
-    </item>
-    
-    <item>
-      <title>“Publish or perish” will not perish</title>
-      <link>https://yzhang34.github.io/post/nature-publish-or-perish/</link>
-      <pubDate>Thu, 10 Oct 2019 00:00:00 +0000</pubDate>
-      <guid>https://yzhang34.github.io/post/nature-publish-or-perish/</guid>
-      <description></description>
     </item>
     
     <item>
