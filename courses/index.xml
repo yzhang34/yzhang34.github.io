@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Courses | Boulder Optical Laboratory for Translational Science</title>
+    <link>https://yzhang34.github.io/courses/</link>
+      <atom:link href="https://yzhang34.github.io/courses/index.xml" rel="self" type="application/rss+xml" />
+    <description>Courses</description>
+    <generator>Source Themes Academic (https://sourcethemes.com/academic/)</generator><language>en-us</language><copyright>Contents © 2025 Yide Zhang </copyright><lastBuildDate>Tue, 03 Jun 2025 00:00:00 +0100</lastBuildDate>
+    <image>
+      <url>https://yzhang34.github.io/images/icon_hu4262e56793aeaff45d82d15e29408a30_246501_512x512_fill_lanczos_center_2.png</url>
+      <title>Courses</title>
+      <link>https://yzhang34.github.io/courses/</link>
+    </image>
+    
+    <item>
+      <title>ECEN 5006: Biomedical Optical Imaging</title>
+      <link>https://yzhang34.github.io/courses/example/ecen5006/</link>
+      <pubDate>Tue, 03 Jun 2025 00:00:00 +0100</pubDate>
+      <guid>https://yzhang34.github.io/courses/example/ecen5006/</guid>
+      <description>&lt;p&gt;This graduate‐level course provides an in‐depth exploration of how optical principles can be applied to biomedical research and clinical diagnostics. Students will learn the foundational physics of light–tissue interactions, including absorption, fluorescence, and scattering, and will examine advanced imaging modalities such as fluorescence imaging, Raman spectroscopy, optical coherence tomography, diffuse optical methods, and photoacoustic tomography. Emphasis will be placed on the underlying physics and engineering of each technique, along with applications in disease diagnosis, therapy monitoring, and functional imaging. By analyzing current literature, performing problem‐solving exercises, and engaging in project work, participants will develop a strong theoretical and practical foundation in state‐of‐the‐art biomedical optical imaging.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Credit Hours:&lt;/strong&gt; 3&lt;br&gt;
+&lt;strong&gt;Campus:&lt;/strong&gt; Boulder Main Campus&lt;br&gt;
+&lt;strong&gt;Location:&lt;/strong&gt; Boulder Main Campus&lt;br&gt;
+&lt;strong&gt;Instruction Mode:&lt;/strong&gt; In Person&lt;br&gt;
+&lt;strong&gt;Session:&lt;/strong&gt; Boulder Main Campus Semester&lt;br&gt;
+&lt;strong&gt;Dates:&lt;/strong&gt; 2025-08-21 through 2025-12-05&lt;/p&gt;
+</description>
+    </item>
+    
+  </channel>
+</rss>
