@@ -1,0 +1,5451 @@
+<!DOCTYPE html><html lang="en-us" >
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="generator" content="Source Themes Academic 4.8.0">
+
+  
+
+  
+  
+  
+  
+  
+    
+    
+    
+  
+  
+
+  <meta name="author" content="Yide Zhang">
+
+  
+  
+  
+    
+  
+  <meta name="description" content="Assistant Professor of ECEE and BME">
+
+  
+  <link rel="alternate" hreflang="en-us" href="https://yzhang34.github.io/">
+
+  
+
+
+  
+  
+  
+  <meta name="theme-color" content="#2962ff">
+  
+
+  
+  
+  
+  <script src="/js/mathjax-config.js"></script>
+  
+
+  
+  
+  
+  
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" integrity="sha256-uFVgMKfistnJAfoCUQigIl+JfUaP47GrRKjf6CTPVmw=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-1/css/all.min.css" integrity="sha256-4w9DunooKSr3MFXHXWyFER38WmPdm361bQS/2KUWZbU=" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.css" integrity="sha256-Vzbj7sDDS/woiFS3uNKo8eIuni59rjyNGtXfstRzStA=" crossorigin="anonymous">
+
+    
+    
+    
+      
+    
+    
+      
+      
+        
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/github.min.css" crossorigin="anonymous" title="hl-light">
+          <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/styles/dracula.min.css" crossorigin="anonymous" title="hl-dark" disabled>
+        
+      
+    
+
+    
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.css" integrity="sha256-SHMGCYmST46SoyGgo4YR/9AlK1vf3ff84Aq9yK4hdqM=" crossorigin="anonymous">
+    
+
+    
+
+    
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/lazysizes/5.1.2/lazysizes.min.js" integrity="sha256-Md1qLToewPeKjfAHU1zyPwOutccPAm5tahnaw7Osw0A=" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+    
+      
+
+      
+      
+
+      
+        <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js" integrity="" crossorigin="anonymous" async></script>
+      
+    
+      
+
+      
+      
+
+      
+    
+
+  
+
+  
+  
+  
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat:400,700%7CRoboto:400,400italic,700%7CRoboto+Mono&display=swap">
+  
+
+  
+  
+  
+  
+  <link rel="stylesheet" href="/css/academic.css">
+
+  
+
+
+
+
+
+<script async src="https://www.googletagmanager.com/gtag/js?id=UA-143764431-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+
+  function gtag() {
+      dataLayer.push(arguments);
+  }
+
+  function trackOutboundLink(url, target) {
+    gtag('event', 'click', {
+         'event_category': 'outbound',
+         'event_label': url,
+         'transport_type': 'beacon',
+         'event_callback': function () {
+           if (target !== '_blank') {
+             document.location = url;
+           }
+         }
+    });
+    console.debug("Outbound link clicked: " + url);
+  }
+
+  function onClickCallback(event) {
+    if ((event.target.tagName !== 'A') || (event.target.host === window.location.host)) {
+      return;
+    }
+    trackOutboundLink(event.target, event.target.getAttribute('target'));  
+  }
+
+  gtag('js', new Date());
+  gtag('config', 'UA-143764431-1', {});
+
+  
+  document.addEventListener('click', onClickCallback, false);
+</script>
+
+
+  
+
+
+  
+  
+  <script src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
+  
+
+  
+  <link rel="alternate" href="/index.xml" type="application/rss+xml" title="BOLTS @ CU Boulder">
+  
+
+  <link rel="manifest" href="/index.webmanifest">
+  <link rel="icon" type="image/png" href="/images/icon_hu4262e56793aeaff45d82d15e29408a30_246501_32x32_fill_lanczos_center_2.png">
+  <link rel="apple-touch-icon" type="image/png" href="/images/icon_hu4262e56793aeaff45d82d15e29408a30_246501_192x192_fill_lanczos_center_2.png">
+
+  <link rel="canonical" href="https://yzhang34.github.io/">
+
+  
+  
+  
+  
+  
+  
+  
+    
+    
+  
+  
+  <meta property="twitter:card" content="summary">
+  
+  <meta property="twitter:site" content="@yzhang34">
+  <meta property="twitter:creator" content="@yzhang34">
+  
+  <meta property="og:site_name" content="BOLTS @ CU Boulder">
+  <meta property="og:url" content="https://yzhang34.github.io/">
+  <meta property="og:title" content="BOLTS @ CU Boulder">
+  <meta property="og:description" content="Assistant Professor of ECEE and BME"><meta property="og:image" content="https://yzhang34.github.io/images/icon_hu4262e56793aeaff45d82d15e29408a30_246501_512x512_fill_lanczos_center_2.png">
+  <meta property="twitter:image" content="https://yzhang34.github.io/images/icon_hu4262e56793aeaff45d82d15e29408a30_246501_512x512_fill_lanczos_center_2.png"><meta property="og:locale" content="en-us">
+  
+    <meta property="og:updated_time" content="2025-06-03T00:00:00&#43;01:00">
+  
+
+  
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://yzhang34.github.io/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  },
+  "url": "https://yzhang34.github.io/"
+}
+</script>
+
+
+  
+
+
+  
+
+
+  
+
+
+
+
+
+  <title>BOLTS @ CU Boulder</title>
+
+</head>
+
+<body id="top" data-spy="scroll" data-offset="70" data-target="#navbar-main" >
+
+  <aside class="search-results" id="search">
+  <div class="container">
+    <section class="search-header">
+
+      <div class="row no-gutters justify-content-between mb-3">
+        <div class="col-6">
+          <h1>Search</h1>
+        </div>
+        <div class="col-6 col-search-close">
+          <a class="js-search" href="#"><i class="fas fa-times-circle text-muted" aria-hidden="true"></i></a>
+        </div>
+      </div>
+
+      <div id="search-box">
+        
+        <input name="q" id="search-query" placeholder="Search..." autocapitalize="off"
+        autocomplete="off" autocorrect="off" spellcheck="false" type="search">
+        
+      </div>
+
+    </section>
+    <section class="section-search-results">
+
+      <div id="search-hits">
+        
+      </div>
+
+    </section>
+  </div>
+</aside>
+
+
+  
+
+
+
+
+
+
+
+<nav class="navbar navbar-expand-lg navbar-light compensate-for-scrollbar" id="navbar-main">
+  <div class="container">
+
+    
+    <div class="d-none d-lg-inline-flex">
+      <a class="navbar-brand" href="/">BOLTS @ CU Boulder</a>
+    </div>
+    
+
+    
+    <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#navbar-content" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+    <span><i class="fas fa-bars"></i></span>
+    </button>
+    
+
+    
+    <div class="navbar-brand-mobile-wrapper d-inline-flex d-lg-none">
+      <a class="navbar-brand" href="/">BOLTS @ CU Boulder</a>
+    </div>
+    
+
+    
+    
+    <div class="navbar-collapse main-menu-item collapse justify-content-start" id="navbar-content">
+
+      
+      <ul class="navbar-nav d-md-inline-flex">
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#slider" data-target="#slider"><span>Home</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#people" data-target="#people"><span>Team</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#featured" data-target="#featured"><span>Publications</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#courses" data-target="#courses"><span>Courses</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+          
+          
+          
+            
+          
+          
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/#contact" data-target="#contact"><span>Contact</span></a>
+        </li>
+
+        
+        
+
+        
+
+        
+        
+        
+          
+        
+
+        
+        
+        
+        
+        
+        
+
+        <li class="nav-item">
+          <a class="nav-link " href="/files/cv.pdf"><span>CV</span></a>
+        </li>
+
+        
+        
+
+      
+
+        
+      </ul>
+    </div>
+
+    <ul class="nav-icons navbar-nav flex-row ml-auto d-flex pl-md-2">
+      
+      <li class="nav-item">
+        <a class="nav-link js-search" href="#" aria-label="Search"><i class="fas fa-search" aria-hidden="true"></i></a>
+      </li>
+      
+
+      
+      <li class="nav-item dropdown theme-dropdown">
+        <a href="#" class="nav-link js-theme-selector" data-toggle="dropdown" aria-haspopup="true">
+          <i class="fas fa-palette" aria-hidden="true"></i>
+        </a>
+        <div class="dropdown-menu">
+          <a href="#" class="dropdown-item js-set-theme-light">
+            <span>Light</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-dark">
+            <span>Dark</span>
+          </a>
+          <a href="#" class="dropdown-item js-set-theme-auto">
+            <span>Automatic</span>
+          </a>
+        </div>
+      </li>
+      
+
+      
+
+    </ul>
+
+  </div>
+</nav>
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+<span class="js-widget-page d-none"></span>
+
+
+
+
+
+  
+  
+  
+  
+
+
+
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+    
+    
+    
+  
+
+  <section id="slider" class="home-section wg-slider    carousel slide"  data-ride="carousel" data-interval="5000">
+    
+      
+
+
+
+
+<ol class="carousel-indicators">
+  
+  <li data-target="#slider" data-slide-to="0" class="active"></li>
+  
+  <li data-target="#slider" data-slide-to="1" ></li>
+  
+  <li data-target="#slider" data-slide-to="2" ></li>
+  
+  <li data-target="#slider" data-slide-to="3" ></li>
+  
+  <li data-target="#slider" data-slide-to="4" ></li>
+  
+</ol>
+
+
+<div class="carousel-inner">
+  
+  <div class="wg-hero dark carousel-item active" style="height: 800px;
+    
+    background-color: #666;
+    
+    
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('https://yzhang34.github.io/img/headers/PACTER.png');
+    
+    ;">
+    <div class="container" style="text-align: left;">
+        <h1 class="hero-title">
+          Photoacoustic Imaging
+        </h1>
+
+        
+        <p class="hero-lead" style="">
+          Using laser-induced ultrasonic waves to create detailed images of the inside of the body<br><em><a href="https://doi.org/10.1038/s41551-023-01149-4">Nat. Biomed. Eng. 2023</a>, <a href="https://doi.org/10.1038/s41551-022-00940-z">Nat. Biomed. Eng. 2022</a>, <a href="https://doi.org/10.1038/s41566-022-01112-w">Nat. Photon. 2022</a>, <a href="https://doi.org/10.1038/s41596-020-00487-w">Nat. Protoc. 2021</a>, <a href="https://doi.org/10.1038/s41377-022-01053-7">Light Sci. Appl. 2023</a></em>
+        </p>
+        
+
+        
+      </div>
+  </div>
+  
+  <div class="wg-hero dark carousel-item" style="height: 800px;
+    
+    background-color: #555;
+    
+    
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('https://yzhang34.github.io/img/headers/QMC.png');
+    
+    ;">
+    <div class="container" style="text-align: left;">
+        <h1 class="hero-title">
+          Quantum Imaging
+        </h1>
+
+        
+        <p class="hero-lead" style="">
+          Employing entangled photons to generate images with enhanced resolution and sensitivity<br><em><a href="https://doi.org/10.1126/sciadv.adk1495">Sci. Adv. 2024</a>, <a href="https://doi.org/10.1038/s41467-023-38191-4">Nat. Commun. 2023</a></em>
+        </p>
+        
+
+        
+      </div>
+  </div>
+  
+  <div class="wg-hero dark carousel-item" style="height: 800px;
+    
+    background-color: #555;
+    
+    
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('https://yzhang34.github.io/img/headers/CUP.png');
+    
+    ;">
+    <div class="container" style="text-align: left;">
+        <h1 class="hero-title">
+          Ultrafast Imaging
+        </h1>
+
+        
+        <p class="hero-lead" style="">
+          Visualizing rapid biological and physical processes with extremely high temporal resolution<br><em><a href="https://doi.org/10.1038/s41467-022-33002-8">Nat. Commun. 2022</a>, <a href="https://doi.org/10.1038/s41566-022-01142-4">Nat. Photon. 2023</a>, <a href="https://doi.org/10.1038/s41377-023-01095-5">Light Sci. Appl. 2023</a></em>
+        </p>
+        
+
+        
+      </div>
+  </div>
+  
+  <div class="wg-hero dark carousel-item" style="height: 800px;
+    
+    background-color: #333;
+    
+    
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('https://yzhang34.github.io/img/headers/FLIM.png');
+    
+    ;">
+    <div class="container" style="text-align: left;">
+        <h1 class="hero-title">
+          Fluorescence Imaging
+        </h1>
+
+        
+        <p class="hero-lead" style="">
+          Capturing fluorescence intensity and lifetime to analyze biological structures and functions<br><em><a href="https://doi.org/10.1364/OPTICA.426870">Optica 2021</a>, <a href="https://doi.org/10.1038/s41377-023-01323-y">Light Sci. Appl. 2023</a></em>
+        </p>
+        
+
+        
+      </div>
+  </div>
+  
+  <div class="wg-hero dark carousel-item" style="height: 800px;
+    
+    background-color: #333;
+    
+    
+    background-image:
+    linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+    url('https://yzhang34.github.io/img/headers/ML.png');
+    
+    ;">
+    <div class="container" style="text-align: left;">
+        <h1 class="hero-title">
+          Machine Learning
+        </h1>
+
+        
+        <p class="hero-lead" style="">
+          Utilizing AI/ML algorithms to analyze and enhance biomedical images for better diagnosis<br><em><a href="https://doi.org/10.1109/CVPR.2019.01198">CVPR 2019</a>, <a href="https://doi.org/10.1364/OPTICA.448287">Optica 2022</a></em>
+        </p>
+        
+
+        
+      </div>
+  </div>
+  
+</div>
+
+
+<a class="carousel-control-prev" href="#slider" data-slide="prev">
+  <span class="carousel-control-prev-icon"></span>
+  <span class="sr-only">Previous</span>
+</a>
+<a class="carousel-control-next" href="#slider" data-slide="next">
+  <span class="carousel-control-next-icon"></span>
+  <span class="sr-only">Next</span>
+</a>
+
+    
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="about" class="home-section wg-about   "  >
+    <div class="container">
+      
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+<div class="row">
+  <div class="col-12 col-lg-4">
+    <div id="profile">
+
+      
+      
+      <img class="avatar avatar-circle" src="/author/avatar_hud3d6725ae55fa7b494fdbbeae4924bff_468674_1000x1000_fill_lanczos_center_2.png" alt="">
+      
+
+      <div class="portrait-title">
+        <h2></h2>
+        <h3>Boulder Optical Laboratory for Translational Science</h3>
+
+        
+        <h3>
+          <a href="https://www.colorado.edu/ecee/yide-zhang" target="_blank" rel="noopener">
+          <span>University of Colorado Boulder</span>
+          </a>
+        </h3>
+        
+      </div>
+
+      <ul class="network-icon" aria-hidden="true">
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://twitter.com/yzhang34" target="_blank" rel="noopener">
+            <i class="fab fa-twitter big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://scholar.google.com/citations?user=P8MzGmgAAAAJ&amp;hl=en" target="_blank" rel="noopener">
+            <i class="ai ai-google-scholar big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://orcid.org/0000-0002-9463-3970" target="_blank" rel="noopener">
+            <i class="ai ai-orcid big-icon"></i>
+          </a>
+        </li>
+        
+        
+        
+        
+          
+        
+        
+        
+        
+        
+          
+        
+        <li>
+          <a href="https://github.com/yzhang34" target="_blank" rel="noopener">
+            <i class="fab fa-github big-icon"></i>
+          </a>
+        </li>
+        
+      </ul>
+
+    </div>
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+    
+
+    <p>The Boulder Optical Laboratory for Translational Science (BOLTS) pioneers innovative optical imaging and sensing technologies to accelerate the translation of fundamental discoveries into impactful clinical and engineering solutions. Our multidisciplinary research integrates cutting-edge light-based methods, including photoacoustics, quantum imaging, and ultrafast optical techniques, with advanced computational approaches. BOLTS is dedicated to bridging the gap between foundational science and real-world applications, transforming the landscape of biomedical diagnostics, monitoring, and therapeutic interventions.</p>
+<p><span style="color:#8c7535"> We are actively recruiting postdocs, graduate students, and CU Boulder undergraduates. We welcome applicants with backgrounds in electrical engineering, biomedical engineering, physics, computer science, mechanical engineering, optics, ultrasonics, imaging, or related fields. If you are interested, please send your CV to <a href="mailto:yide.zhang@colorado.edu"><a href="mailto:yide.zhang@colorado.edu">yide.zhang@colorado.edu</a></a>.</span></p>
+
+
+    <div class="row">
+
+      
+
+      
+
+    </div>
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="people" class="home-section wg-people   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+<div class="row justify-content-center people-widget">
+  
+  <div class="col-md-12 section-heading">
+    <h1>Team</h1>
+    
+  </div>
+  
+
+  
+
+  
+  
+
+  
+  <div class="col-md-12">
+    <h2 class="mb-4">Principal Investigator</h2>
+  </div>
+  
+
+  
+  
+  
+  
+  
+    
+  
+  <div class="col-12 col-sm-auto people-person">
+    
+    
+      
+      
+    
+    
+      
+      <a href="/author/yide-zhang/"><img class="avatar avatar-circle" src="/author/yide-zhang/avatar_hu9d0543ae2766b87726acc57823eb90e6_9430407_1000x1000_fill_q100_lanczos_center.jpg" alt="Avatar"></a>
+    
+
+    <div class="portrait-title">
+      <h2><a href="/author/yide-zhang/">Yide Zhang</a></h2>
+      <h3>Assistant Professor of ECEE and BME</h3>
+      
+      
+    </div>
+  </div>
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+  
+
+  
+
+  
+  
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="featured" class="home-section wg-featured   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Featured Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Zhe He</span>, <span >Xin Tong</span>, <span >David C. Garrett</span>, <span >Rui Cao</span>, <span >Lihong V. Wang</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    March 2024
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Science Advances</em>, vol. 10, no. 10, pp. eadk1495
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/publication/j28-2024-sa/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/j28-2024-sa/">
+      <img src="/publication/j28-2024-sa/featured_hu2d6392ac18adf3cc546bd41fef499788_439537_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="Quantum imaging of biological organisms through spatial and polarization entanglement">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/j28-2024-sa/">Quantum imaging of biological organisms through spatial and polarization entanglement</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Quantum imaging holds potential benefits over classical imaging but has faced challenges such as poor signal-to-noise ratios, low resolvable pixel counts, difficulty in imaging biological organisms, and inability to quantify full birefringence properties. Here, we introduce quantum imaging by coincidence from entanglement (ICE), using spatially and polarization-entangled photon pairs to overcome these challenges. With spatial entanglement, ICE offers higher signal-to-noise ratios, greater resolvable pixel counts, and the ability to image biological organisms. With polarization entanglement, ICE provides quantitative quantum birefringence imaging capability, where both the phase retardation and the principal refractive index axis angle of an object can be remotely and instantly quantified without changing the polarization states of the photons incident on the object. Furthermore, ICE enables 25 times greater suppression of stray light than classical imaging. ICE has the potential to pave the way for quantum imaging in diverse fields, such as life sciences and remote sensing.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.science.org/doi/epdf/10.1126/sciadv.adk1495" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1126/sciadv.adk1495" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/using-polarization-to-improve-quantum-imaging" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Peng Hu</span>, <span >Lei Li</span>, <span >Rui Cao</span>, <span >Anjul Khadria</span>, <span >Konstantin Maslov</span>, <span >Xin Tong</span>, <span >Yushun Zeng</span>, <span >Laiming Jiang</span>, <span >Qifa Zhou</span>, <span >Lihong V. Wang</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    November 2023
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Nature Biomedical Engineering</em>, vol. 8, no. 6, pp. 712-725
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/publication/j26-2023-nbme/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/j26-2023-nbme/">
+      <img src="/publication/j26-2023-nbme/featured_huafb3499c5c73dcae9c54dbb3af8ed1b3_207661_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="Ultrafast longitudinal imaging of haemodynamics via single-shot volumetric photoacoustic tomography with a single-element detector">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/j26-2023-nbme/">Ultrafast longitudinal imaging of haemodynamics via single-shot volumetric photoacoustic tomography with a single-element detector</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Techniques for imaging haemodynamics use ionizing radiation or contrast agents or are limited by imaging depth (within approximately 1 mm), complex and expensive data-acquisition systems, or low imaging speeds, system complexity or cost. Here we show that ultrafast volumetric photoacoustic imaging of haemodynamics in the human body at up to 1 kHz can be achieved using a single laser pulse and a single element functioning as 6,400 virtual detectors. The technique, which does not require recalibration for different objects or during long-term operation, enables the longitudinal volumetric imaging of haemodynamics in vasculature a few millimetres below the skin’s surface. We demonstrate this technique in vessels in the feet of healthy human volunteers by capturing haemodynamic changes in response to vascular occlusion. Single-shot volumetric photoacoustic imaging using a single-element detector may facilitate the early detection and monitoring of peripheral vascular diseases and may be advantageous for use in biometrics and point-of-care testing.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://coilab.caltech.edu/documents/27122/Zhang-2023-Nature_Biomedical_Engineering1.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=L7r5eNtaLq4&amp;t=1s" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41551-023-01149-4" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/immersive/medical-diagnostics/index.html" target="_blank" rel="noopener">
+    
+    Nature Outlook: Medical Diagnostics
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41551-023-01162-7" target="_blank" rel="noopener">
+    
+    Nature Biomedical Engineering’s News & Views
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/advancements-make-laser-based-imaging-simpler-and-three-dimensional" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nibib.nih.gov/news-events/newsroom/new-technology-brings-advanced-blood-imaging-closer-clinic" target="_blank" rel="noopener">
+    
+    NIH NIBIB’s Science Highlights
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Binglin Shen</span>, <span >Tong Wu</span>, <span >Jerry Zhao</span>, <span >Joseph C. Jing</span>, <span >Peng Wang</span>, <span >Kanomi Sasaki-Capela</span>, <span >William G. Dunphy</span>, <span >David Garrett</span>, <span >Konstantin Maslov</span>, <span >Weiwei Wang</span>, <span >Lihong V. Wang</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    September 2022
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Nature Communications</em>, vol. 13, no. 5247, pp. 1-12
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/publication/j17-2022-nc/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/j17-2022-nc/">
+      <img src="/publication/j17-2022-nc/featured_hue917d2913367af81e4e1095c6b98d16d_323670_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="Ultrafast and hypersensitive phase imaging of propagating internodal current flows in myelinated axons and electromagnetic pulses in dielectrics">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/j17-2022-nc/">Ultrafast and hypersensitive phase imaging of propagating internodal current flows in myelinated axons and electromagnetic pulses in dielectrics</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Many ultrafast phenomena in biology and physics are fundamental to our scientific understanding but have not yet been visualized owing to the extreme speed and sensitivity requirements in imaging modalities. Two examples are the propagation of passive current flows through myelinated axons and electromagnetic pulses through dielectrics, which are both key to information processing in living organisms and electronic devices. Here, we demonstrate differentially enhanced compressed ultrafast photography (Diff-CUP) to directly visualize propagations of passive current flows at approximately 100 m/s along internodes, i.e., continuous myelinated axons between nodes of Ranvier, from Xenopus laevis sciatic nerves and of electromagnetic pulses at approximately 5 × 10^7 m/s through lithium niobate. The spatiotemporal dynamics of both propagation processes are consistent with the results from computational models, demonstrating that Diff-CUP can span these two extreme timescales while maintaining high phase sensitivity. With its ultrahigh speed (picosecond resolution), high sensitivity, and noninvasiveness, Diff-CUP provides a powerful tool for investigating ultrafast biological and physical phenomena.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41467-022-33002-8.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41467-022-33002-8" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/high-speed-camera-captures-signals-traveling-through-nerve-cells" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Ian H. Guldner</span>, <span >Evan L. Nichols</span>, <span >David Benirschke</span>, <span >Cody J. Smith</span>, <span >Siyuan Zhang</span>, <span >Scott S. Howard</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    June 2021
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>Optica</em>, vol. 8, no. 6, pp. 885-897
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/publication/j15-2021-optica/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/j15-2021-optica/">
+      <img src="/publication/j15-2021-optica/featured_hu97052adbfdf1380e8899ee99ed038ab6_681551_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="Instant FLIM enables 4D in vivo lifetime imaging of intact and injured zebrafish and mouse brains">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/j15-2021-optica/">Instant FLIM enables 4D in vivo lifetime imaging of intact and injured zebrafish and mouse brains</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Traditional fluorescence microscopy is blind to molecular microenvironment information that is present in a fluorescence lifetime, which can be measured by fluorescence lifetime imaging microscopy (FLIM). However, most existing FLIM techniques are slow to acquire and process lifetime images, difficult to implement, and expensive. Here we present instant FLIM, an analog signal processing method that allows real-time streaming of fluorescence intensity, lifetime, and phasor imaging data through simultaneous image acquisition and instantaneous data processing. Instant FLIM can be easily implemented by upgrading an existing two-photon microscope using cost-effective components and our open-source software. We further improve the functionality, penetration depth, and resolution of instant FLIM using phasor segmentation, adaptive optics, and super-resolution techniques. We demonstrate through-skull intravital 3D FLIM of mouse brains to depths of 300 µm and present the first in vivo 4D FLIM of microglial dynamics in intact and injured zebrafish and mouse brains for up to 12 h.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://opg.optica.org/optica/viewmedia.cfm?uri=optica-8-6-885&amp;seq=0" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/OPTICA.426870" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://yzhang34.github.io/files/optica_top_downloads.pdf" target="_blank" rel="noopener">
+    
+    Optica Top Downloads
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yzhang34/Instant-FLIM-Control" target="_blank" rel="noopener">
+    
+    Control Software
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yzhang34/Instant-FLIM-Analysis" target="_blank" rel="noopener">
+    
+    Analysis Software
+  </a>
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+      
+        
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+  
+  
+  <div>
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Yinhao Zhu</span>, <span >Evan Nichols</span>, <span >Qingfei Wang</span>, <span >Siyuan Zhang</span>, <span >Cody Smith</span>, <span >Scott Howard</span>
+  </div>
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    June 2019
+  </span>
+  
+
+  
+  <span class="middot-divider"></span>
+  <span class="pub-publication">
+    
+      <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2019)</em>, Long Beach, California USA
+    
+  </span>
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/publication/c15-2019-cvpr/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+  
+  <a href="/publication/c15-2019-cvpr/">
+      <img src="/publication/c15-2019-cvpr/featured_hu917a6a2a8f5724f8c631447c8bbe2ca1_483167_918x517_fill_q90_lanczos_smart1_2.png" class="article-banner" alt="A Poisson-Gaussian denoising dataset with real fluorescence microscopy images">
+  </a>
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/publication/c15-2019-cvpr/">A Poisson-Gaussian denoising dataset with real fluorescence microscopy images</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>Fluorescence microscopy has enabled a dramatic development in modern biology. Due to its inherently weak signal, fluorescence microscopy is not only much noisier than photography, but also presented with Poisson-Gaussian noise where Poisson noise, or shot noise, is the dominating noise source. To get clean fluorescence microscopy images, it is highly desirable to have effective denoising algorithms and datasets that are specifically designed to denoise fluorescence microscopy images. While such algorithms exist, no such datasets are available. In this paper, we fill this gap by constructing a dataset - the Fluorescence Microscopy Denoising (FMD) dataset - that is dedicated to Poisson-Gaussian denoising. The dataset consists of 12,000 real fluorescence microscopy images obtained with commercial confocal, two-photon, and wide-field microscopes and representative biological samples such as cells, zebrafish, and mouse brain tissues. We use image averaging to effectively obtain ground truth images and 60,000 noisy images with different noise levels. We use this dataset to benchmark 10 representative denoising algorithms and find that deep learning methods have the best performance. To our knowledge, this is the first real microscopy image dataset for Poisson-Gaussian denoising purposes and it could be an important tool for high-quality, real-time denoising applications in biomedical research.</p>
+  </div>
+  
+
+  
+  <div class="btn-links">
+    
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_A_Poisson-Gaussian_Denoising_Dataset_With_Real_Fluorescence_Microscopy_Images_CVPR_2019_paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yinhaoz/denoising-fluorescence" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/drive/folders/1aygMzSDdoq63IqSk-ly8cMq0_owup8UM" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CVPR.2019.01198" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+
+  </div>
+  
+
+</div>
+
+      
+    
+
+  
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications_journal" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Journal Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <!-- <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="https://yzhang34.github.io/publication/">filtering publications</a>.
+  </div>
+</div>
+ -->
+
+
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Rui Cao</span>, <span >Yilin Luo</span>, <span >Jingjing Zhao</span>, <span >Yushun Zeng</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Qifa Zhou</span>, <span >Adam le da Zerda</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2024).
+  <a href="/publication/j31-2024-sa/">Optical-resolution parallel ultraviolet photoacoustic microscopy for slide-free histology</a>.
+  <em>Science Advances</em>, vol. 10, no. 50, pp. eado0518.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.science.org/doi/epdf/10.1126/sciadv.ado0518" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1126/sciadv.ado0518" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Xin Tong</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Lihong V. Wang</span>
+  </span>
+  (2024).
+  <a href="/publication/j30-2024-opn/">Enhancing optical microscopy with quantum entanglement</a>.
+  <em>Optics and Photonics News</em>, vol. 35, no. 11, pp. 32-39.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://opnmedia.blob.core.windows.net/$web/opn/media/images/pdf/2024/1124/032-039_opn35_11.pdf?ext=.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/OPN.35.11.000032" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Kang Yong Loh</span>, <span >Lei S. Li</span>, <span >Jingyue Fan</span>, <span >Yi Yiing Goh</span>, <span >Weng Heng Liew</span>, <span >Samuel Davis</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Kai Li</span>, <span >Jie Liu</span>, <span >Liangliang Liang</span>, <span >Minjun Feng</span>, <span >Ming Yang</span>, <span >Hang Zhang</span>, <span >Ping&#39;an Ma</span>, <span >Guangxue Feng</span>, <span >Zhao Mu</span>, <span >Weibo Gao</span>, <span >Tze Chien Sum</span>, <span >Bin Liu, Jun Lin</span>, <span >Kui Yao</span>, <span >Lihong V. Wang</span>, <span >Xiaogang Liu</span>
+  </span>
+  (2024).
+  <a href="/publication/j29-2024-commmat/">Sharp-peaked lanthanide nanocrystals for near-infrared photoacoustic multiplexed differential imaging</a>.
+  <em>Communications Materials</em>, vol. 5, no. 164, pp. 1-10.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s43246-024-00605-1.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s43246-024-00605-1" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Zhe He</span>, <span >Xin Tong</span>, <span >David C. Garrett</span>, <span >Rui Cao</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2024).
+  <a href="/publication/j28-2024-sa/">Quantum imaging of biological organisms through spatial and polarization entanglement</a>.
+  <em>Science Advances</em>, vol. 10, no. 10, pp. eadk1495.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.science.org/doi/epdf/10.1126/sciadv.adk1495" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1126/sciadv.adk1495" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/using-polarization-to-improve-quantum-imaging" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Ruofan Cao</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Jessica Houston</span>
+  </span>
+  (2024).
+  <a href="/publication/j27-2024-fbinf/">Editorial: Phasor analysis for fluorescence lifetime data</a>.
+  <em>Frontiers in Bioinformatics</em> (Editorial), vol. 4, no. 1375480, pp. 1-2.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.frontiersin.org/journals/bioinformatics/articles/10.3389/fbinf.2024.1375480/pdf?isPublishedV2=false" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.3389/fbinf.2024.1375480" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Peng Hu</span>, <span >Lei Li</span>, <span >Rui Cao</span>, <span >Anjul Khadria</span>, <span >Konstantin Maslov</span>, <span >Xin Tong</span>, <span >Yushun Zeng</span>, <span >Laiming Jiang</span>, <span >Qifa Zhou</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2023).
+  <a href="/publication/j26-2023-nbme/">Ultrafast longitudinal imaging of haemodynamics via single-shot volumetric photoacoustic tomography with a single-element detector</a>.
+  <em>Nature Biomedical Engineering</em>, vol. 8, no. 6, pp. 712-725.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://coilab.caltech.edu/documents/27122/Zhang-2023-Nature_Biomedical_Engineering1.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=L7r5eNtaLq4&amp;t=1s" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41551-023-01149-4" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/immersive/medical-diagnostics/index.html" target="_blank" rel="noopener">
+    
+    Nature Outlook: Medical Diagnostics
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41551-023-01162-7" target="_blank" rel="noopener">
+    
+    Nature Biomedical Engineering’s News & Views
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/advancements-make-laser-based-imaging-simpler-and-three-dimensional" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nibib.nih.gov/news-events/newsroom/new-technology-brings-advanced-blood-imaging-closer-clinic" target="_blank" rel="noopener">
+    
+    NIH NIBIB’s Science Highlights
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>
+  </span>
+  (2023).
+  <a href="/publication/j25-2023-lsa/">Deep learning-enhanced microscopy with extended depth-of-field</a>.
+  <em>Light: Science &amp; Applications</em> (News &amp; Views), vol. 12, no. 284, pp. 1-3.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41377-023-01323-y.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41377-023-01323-y" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Zhe He</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Xin Tong</span>, <span >Lei Li</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2023).
+  <a href="/publication/j24-2023-nc/">Quantum microscopy of cells at the Heisenberg limit</a>.
+  <em>Nature Communications</em>, vol. 14, no. 2441, pp. 1-8.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41467-023-38191-4.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41467-023-38191-4" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/2023-year-in-review" target="_blank" rel="noopener">
+    
+    Caltech’s 2023 Year in Review
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/quantum-entanglement-of-photons-doubles-microscope-resolution" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Xin Tong</span>, <span >Zhe He</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Samuel Solomon</span>, <span >Li Lin</span>, <span >Qiyuan Song</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2023).
+  <a href="/publication/j23-2023-prapplied/">Experimental full-domain mapping of quantum correlation in Clauser-Horne-Shimony-Holt scenarios</a>.
+  <em>Physical Review Applied</em>, vol. 19, no. 034049, pp. 1-16.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://coilab.caltech.edu/documents/25895/Tong-2023-Physical_Review_Applied.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1103/PhysRevApplied.19.034049" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Yogeshwar Nath Mishra</span>, <span >Peng Wang</span>, <span >Florian J. Bauer</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Dag Hanstorp</span>, <span >Stefan Will</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2023).
+  <a href="/publication/j22-2023-lsa/">Single-pulse real-time billion-frames-per-second planar imaging of ultrafast nanoparticle-laser dynamics and temperature in flames</a>.
+  <em>Light: Science &amp; Applications</em>, vol. 12, no. 47, pp. 1-12.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41377-023-01095-5.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41377-023-01095-5" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://yzhang34.github.io/files/lsa_top_downloads.pdf" target="_blank" rel="noopener">
+    
+    Light: Science & Applications Top Downloads
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.gu.se/en/news/worlds-fastest-laser-camera-films-combustion-in-real-time" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Zhongtao Cheng</span>, <span >Chengmingyue Li</span>, <span >Anjul Khadria</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Lihong V. Wang</span>
+  </span>
+  (2023).
+  <a href="/publication/j21-2023-np/">High-gain and high-speed wavefront shaping through scattering media</a>.
+  <em>Nature Photonics</em>, vol. 17, no. 2, pp. 1-9.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://coilab.caltech.edu/documents/25884/Cheng_et_al-2023-Nature_Photonics.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41566-022-01142-4" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/wavefront-shaping-from-telescopes-to-biological-tissue" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Li Lin</span>, <span >Xin Tong</span>, <span >Susana Cavallero</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Shuai Na</span>, <span >Rui Cao</span>, <span >Tzung K Hsiai</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2023).
+  <a href="/publication/j20-2023-lsa/">Non-invasive photoacoustic computed tomography of rat heart anatomy and function</a>.
+  <em>Light: Science &amp; Applications</em>, vol. 12, no. 12, pp. 1-9.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41377-022-01053-7.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41377-022-01053-7" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Rui Cao</span>, <span >Jingjing Zhao</span>, <span >Lei Li</span>, <span >Lin Du</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Yilin Luo</span>, <span >Laiming Jiang</span>, <span >Samuel Davis</span>, <span >Qifa Zhou</span>, <span >Adam de la Zerda</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2022).
+  <a href="/publication/j19-2022-np/">Optical-resolution photoacoustic microscopy with a needle-shaped beam</a>.
+  <em>Nature Photonics</em>, vol. 17, no. 1, pp. 89-95.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://coilab.caltech.edu/documents/25882/Cao-2022-Nature_Photonics.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41566-022-01112-w" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/d41586-022-04250-x" target="_blank" rel="noopener">
+    
+    Nature Research Highlight
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/seeing-more-with-a-needle-shaped-laser" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Rui Cao</span>, <span >Scott D. Nelson</span>, <span >Samuel Davis</span>, <span >Yu Liang</span>, <span >Yilin Luo</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Brooke Crawford</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2022).
+  <a href="/publication/j18-2022-nbme/">Label-free intraoperative histology of bone tissue via deep-learning-assisted ultraviolet photoacoustic microscopy</a>.
+  <em>Nature Biomedical Engineering</em>, vol. 6, no. 9, pp. 1-11.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://coilab.caltech.edu/documents/25902/Cao-2022-Nature_Biomedical_Engineering.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41551-022-00940-z" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/laser-light-offers-new-tool-for-treating-bone-cancer" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Binglin Shen</span>, <span >Tong Wu</span>, <span >Jerry Zhao</span>, <span >Joseph C. Jing</span>, <span >Peng Wang</span>, <span >Kanomi Sasaki-Capela</span>, <span >William G. Dunphy</span>, <span >David Garrett</span>, <span >Konstantin Maslov</span>, <span >Weiwei Wang</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2022).
+  <a href="/publication/j17-2022-nc/">Ultrafast and hypersensitive phase imaging of propagating internodal current flows in myelinated axons and electromagnetic pulses in dielectrics</a>.
+  <em>Nature Communications</em>, vol. 13, no. 5247, pp. 1-12.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nature.com/articles/s41467-022-33002-8.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41467-022-33002-8" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.caltech.edu/about/news/high-speed-camera-captures-signals-traveling-through-nerve-cells" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Varun Mannam</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Yinhao Zhu</span>, <span >Evan Nichols</span>, <span >Qingfei Wang</span>, <span >Vignesh Sundaresan</span>, <span >Siyuan Zhang</span>, <span >Cody Smith</span>, <span >Paul W. Bohn</span>, <span >Scott S. Howard</span>
+  </span>
+  (2022).
+  <a href="/publication/j16-2022-optica/">Real-time image denoising of mixed Poisson–Gaussian noise in fluorescence microscopy images using ImageJ</a>.
+  <em>Optica</em>, vol. 9, no. 4, pp. 335-345.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://opg.optica.org/optica/viewmedia.cfm?uri=optica-9-4-335&amp;seq=0" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/OPTICA.448287" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Ian H. Guldner</span>, <span >Evan L. Nichols</span>, <span >David Benirschke</span>, <span >Cody J. Smith</span>, <span >Siyuan Zhang</span>, <span >Scott S. Howard</span>
+  </span>
+  (2021).
+  <a href="/publication/j15-2021-optica/">Instant FLIM enables 4D in vivo lifetime imaging of intact and injured zebrafish and mouse brains</a>.
+  <em>Optica</em>, vol. 8, no. 6, pp. 885-897.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://opg.optica.org/optica/viewmedia.cfm?uri=optica-8-6-885&amp;seq=0" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/OPTICA.426870" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://yzhang34.github.io/files/optica_top_downloads.pdf" target="_blank" rel="noopener">
+    
+    Optica Top Downloads
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yzhang34/Instant-FLIM-Control" target="_blank" rel="noopener">
+    
+    Control Software
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yzhang34/Instant-FLIM-Analysis" target="_blank" rel="noopener">
+    
+    Analysis Software
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Lei Li</span>, <span >Yang Li</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Lihong V. Wang</span>
+  </span>
+  (2021).
+  <a href="/publication/j14-2021-nprot/">Snapshot photoacoustic topography through an ergodic relay of optical absorption in vivo</a>.
+  <em>Nature Protocols</em>, vol. 16, no. 5, pp. 2381-2394.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://coilab.caltech.edu/documents/25929/Li-2021-Nature_Protocols.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1038/s41596-020-00487-w" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://web.archive.org/web/20210421182638/https://www.nature.com/nprot/" target="_blank" rel="noopener">
+    
+    Nature Protocols’ Featured Protocol of the Week
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Varun Mannam</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Xiaotong Yuan</span>, <span >Cara Ravasio</span>, <span >Scott S. Howard</span>
+  </span>
+  (2020).
+  <a href="/publication/j13-2020-jphys/">Machine learning for faster and smarter fluorescence lifetime imaging microscopy</a>.
+  <em>Journal of Physics: Photonics</em>, vol. 2, no. 4, pp. 042005.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://iopscience.iop.org/article/10.1088/2515-7647/abac1a/pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1088/2515-7647/abac1a" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Gang Bao</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Zhigang Zeng</span>
+  </span>
+  (2020).
+  <a href="/publication/j2-2020-jas/">Memory analysis for memristors and memristive recurrent neural networks</a>.
+  <em>IEEE/CAA Journal of Automatica Sinica</em>, vol. 7, no. 1, pp. 96-105.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/08945487.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/JAS.2019.1911828" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Sergei Rouvimov</span>, <span >Xiaotong Yuan</span>, <span >Karla Gonzalez-Serrano</span>, <span >Alan C. Seabaugh</span>, <span >Scott S. Howard</span>
+  </span>
+  (2020).
+  <a href="/publication/j12-2020-apl/">Resolution enhancement of transmission electron microscopy by super-resolution radial fluctuations</a>.
+  <em>Applied Physics Letters</em>, vol. 116, no. 4, pp. 044105.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://authors.library.caltech.edu/100962/1/1.5128353.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1063/1.5128353" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Takashi Hato</span>, <span >Pierre C. Dagher</span>, <span >Evan L. Nichols</span>, <span >Cody J. Smith</span>, <span >Kenneth W. Dunn</span>, <span >Scott S. Howard</span>
+  </span>
+  (2019).
+  <a href="/publication/j11-2019-ol/">Automatic segmentation of intravital fluorescence microscopy images by K-means clustering of FLIM phasors</a>.
+  <em>Optics Letters</em>, vol. 44, no. 16, pp. 3928-3931.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://scholarworks.iupui.edu/bitstream/1805/23948/1/Zhang2019Automatic.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yzhang34/Kmeans-FLIM-Phasors" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/OL.44.003928" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.osapublishing.org/ol/issue.cfm?volume=44&amp;issue=16" target="_blank" rel="noopener">
+    
+    Optics Letters’ Featured Paper of Volume 44, Issue 16
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Evan L. Nichols</span>, <span >Abigail M. Zellmer</span>, <span >Ian H. Guldner</span>, <span >Cody Kankel</span>, <span >Siyuan Zhang</span>, <span >Scott S. Howard</span>, <span >Cody J. Smith</span>
+  </span>
+  (2019).
+  <a href="/publication/j10-2019-dev/">Generating intravital super-resolution movies with conventional microscopy reveals actin dynamics that construct pioneer axons</a>.
+  <em>Development</em>, vol. 146, no. 5, pp. dev171512.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/dev171512.full.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.7274/r0-5hhg-5578" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=hXpcoJE03zQ" target="_blank" rel="noopener">
+  Video
+</a>
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1242/dev.171512" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.nd.edu/stories/super-resolution-ghosts/" target="_blank" rel="noopener">
+    
+    Featured News 1
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://research.nd.edu/news/open-source-application-creates-super-resolution-images-of-cell-development-in-living-animals/" target="_blank" rel="noopener">
+    
+    Featured News 2
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >David Benirschke</span>, <span >Ola Abdalsalam</span>, <span >Scott S. Howard</span>
+  </span>
+  (2018).
+  <a href="/publication/j9-2018-boe/">Generalized stepwise optical saturation enables super-resolution fluorescence lifetime imaging microscopy</a>.
+  <em>Biomedical Optics Express</em>, vol. 9, no. 9, pp. 4077-4093.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://opg.optica.org/boe/viewmedia.cfm?uri=boe-9-9-4077&amp;seq=0" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/BOE.9.004077" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Prakash D. Nallathamby</span>, <span >Genevieve D. Vigil</span>, <span >Aamir A. Khan</span>, <span >Devon E. Mason</span>, <span >Joel D. Boerckel</span>, <span >Ryan K. Roeder</span>, <span >Scott S. Howard</span>
+  </span>
+  (2018).
+  <a href="/publication/j8-2018-boe/">Super-resolution fluorescence microscopy by stepwise optical saturation</a>.
+  <em>Biomedical Optics Express</em>, vol. 9, no. 4, pp. 1613-1629.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://opg.optica.org/boe/viewmedia.cfm?uri=boe-9-4-1613&amp;seq=0" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yzhang34/two-step-SOS-sim" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/BOE.9.001613" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://yzhang34.github.io/files/NDIIF_Certificate.pdf" target="_blank" rel="noopener">
+    
+    NDIIF Award for Best Biological Imaging Publication 2018
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://yzhang34.github.io/files/News_a_simple_solution.pdf" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Genevieve Vigil</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Aamir Khan</span>, <span >Scott Howard</span>
+  </span>
+  (2017).
+  <a href="/publication/j7-2017-josa/">Description of deep saturated excitation multiphoton microscopy for super-resolution imaging</a>.
+  <em>Journal of the Optical Society of America A</em>, vol. 34, no. 7, pp. 1217-1223.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/josaa-34-7-1217.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/JOSAA.34.001217" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Aamir A. Khan</span>, <span >Genevieve D. Vigil</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Susan K. Fullerton-Shirey</span>, <span >Scott S. Howard</span>
+  </span>
+  (2017).
+  <a href="/publication/j6-2017-ome/">Silica-coated ruthenium-complex nanoprobes for two-photon oxygen microscopy in biological media</a>.
+  <em>Optical Materials Express</em>, vol. 7, no. 3, pp. 1066-1076.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://opg.optica.org/ome/viewmedia.cfm?uri=ome-7-3-1066&amp;seq=0" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/OME.7.001066" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Genevieve D. Vigil</span>, <span >Lina Cao</span>, <span >Aamir A. Khan</span>, <span >David Benirschke</span>, <span >Tahsin Ahmed</span>, <span >Patrick Fay</span>, <span >Scott S. Howard</span>
+  </span>
+  (2017).
+  <a href="/publication/j5-2017-ol/">Saturation-compensated measurements for fluorescence lifetime imaging microscopy</a>.
+  <em>Optics Letters</em>, vol. 42, no. 1, pp. 155-158.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/ol-42-1-155.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yzhang34/saturation-compensated-FLIM" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/OL.42.000155" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Aamir A. Khan</span>, <span >Genevieve D. Vigil</span>, <span >Scott S. Howard</span>
+  </span>
+  (2016).
+  <a href="/publication/j4-2016-oe/">Super-sensitivity multiphoton frequency-domain fluorescence lifetime imaging microscopy</a>.
+  <em>Optics Express</em>, vol. 24, no. 18, pp. 20862-20867.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://opg.optica.org/oe/viewmedia.cfm?uri=oe-24-18-20862&amp;seq=0" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/OE.24.020862" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Aamir A. Khan</span>, <span >Genevieve D. Vigil</span>, <span >Scott S. Howard</span>
+  </span>
+  (2016).
+  <a href="/publication/j3-2016-josa/">Investigation of signal-to-noise ratio in frequency-domain multiphoton fluorescence lifetime imaging microscopy</a>.
+  <em>Journal of the Optical Society of America A</em>, vol. 33, no. 7, pp. B1-B11.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/josaa-33-7-B1.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yzhang34/MPM-FD-FLIM-SNR" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1364/JOSAA.33.0000B1" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span >Shiping Wen</span>, <span >Zhigang Zeng</span>, <span >Tingwen Huang</span>, <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>
+  </span>
+  (2014).
+  <a href="/publication/j1-2014-tfs/">Exponential adaptive lag synchronization of memristive neural networks via fuzzy method and applications in pseudo random number generators</a>.
+  <em>IEEE Transactions on Fuzzy Systems</em>, vol. 22, no. 6, pp. 1704-1713.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.researchgate.net/profile/Zhigang-Zeng-4/publication/264623404_Exponential_Adaptive_Lag_Synchronization_of_Memristive_Neural_Networks_via_Fuzzy_Method_and_Applications_in_Pseudorandom_Number_Generators/data/53e9a6730cf2fb1b9b671803/tfuzz-zeng-2294855-proof.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/TFUZZ.2013.2294855" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="publications_conference" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Selected Conference Publications</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    <!-- <div class="alert alert-note">
+  <div>
+    Quickly discover relevant content by <a href="https://yzhang34.github.io/publication/">filtering publications</a>.
+  </div>
+</div>
+ -->
+
+
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Peng Hu</span>, <span >Lei Li</span>, <span >Rui Cao</span>, <span >Anjul Khadria</span>, <span >Konstantin Maslov</span>, <span >Xin Tong</span>, <span >Yushun Zeng</span>, <span >Laiming Jiang</span>, <span >Qifa Zhou</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2024).
+  <a href="/publication/c27-2024-pw4/">Ultrafast single-shot 3D photoacoustic tomography in vivo using a single-element detector</a>.
+  <em>SPIE Photonics West 2024</em>, San Francisco, California USA.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/PW_PACTER.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1117/12.3007503" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://yzhang34.github.io/files/Award_Seno_Medical_Best_Paper_Award.pdf" target="_blank" rel="noopener">
+    
+    Seno Medical Best Paper Award
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Binglin Shen</span>, <span >Tong Wu</span>, <span >Jerry Zhao</span>, <span >Joseph C. Jing</span>, <span >Peng Wang</span>, <span >Kanomi Sasaki-Capela</span>, <span >William G. Dunphy</span>, <span >David Garrett</span>, <span >Konstantin Maslov</span>, <span >Weiwei Wang</span>, <span >Lihong V. Wang</span>
+  </span>
+  (2023).
+  <a href="/publication/c23-2023-pw3/">Ultrafast phase imaging of propagating current flows in myelinated axons and electromagnetic pulses in dielectrics</a>.
+  <em>SPIE Photonics West 2023</em>, San Francisco, California USA.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/1239008.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1117/12.2653137" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://yzhang34.github.io/files/Award_Hitachi_High-Tech_Best_Presentation_Award.pdf" target="_blank" rel="noopener">
+    
+    Hitachi High-Tech Best Presentation Award
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Yinhao Zhu</span>, <span >Evan Nichols</span>, <span >Qingfei Wang</span>, <span >Siyuan Zhang</span>, <span >Cody Smith</span>, <span >Scott Howard</span>
+  </span>
+  (2019).
+  <a href="/publication/c15-2019-cvpr/">A Poisson-Gaussian denoising dataset with real fluorescence microscopy images</a>.
+  <em>IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR 2019)</em>, Long Beach, California USA.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://openaccess.thecvf.com/content_CVPR_2019/papers/Zhang_A_Poisson-Gaussian_Denoising_Dataset_With_Real_Fluorescence_Microscopy_Images_CVPR_2019_paper.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://github.com/yinhaoz/denoising-fluorescence" target="_blank" rel="noopener">
+  Code
+</a>
+
+
+  
+  
+    
+  
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://drive.google.com/drive/folders/1aygMzSDdoq63IqSk-ly8cMq0_owup8UM" target="_blank" rel="noopener">
+  Dataset
+</a>
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1109/CVPR.2019.01198" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+      
+        <div class="pub-list-item" style="margin-bottom: 1rem">
+  <i class="far fa-file-alt pub-icon" aria-hidden="true"></i>
+
+  
+  
+
+  <span class="article-metadata li-cite-author">
+    
+
+  
+  <span class="font-weight-bold"><a href="/author/yide-zhang/">Yide Zhang</a></span>, <span >Ian H. Guldner</span>, <span >Evan L. Nichols</span>, <span >David Benirschke</span>, <span >Cody J. Smith</span>, <span >Siyuan Zhang</span>, <span >Scott S. Howard</span>
+  </span>
+  (2019).
+  <a href="/publication/c14-2019-pw3/">Three-dimensional deep tissue multiphoton frequency-domain fluorescence lifetime imaging microscopy via phase multiplexing and adaptive optics</a>.
+  <em>SPIE Photonics West 2019</em>, San Francisco, California USA.
+  
+  <p>
+
+
+
+
+
+
+
+
+  
+    
+  
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="/files/108822H.pdf" target="_blank" rel="noopener">
+  PDF
+</a>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://doi.org/10.1117/12.2510674" target="_blank" rel="noopener">
+  DOI
+</a>
+
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://yzhang34.github.io/files/JenLab_Young_Investigator_Award.pdf" target="_blank" rel="noopener">
+    
+    JenLab Young Investigator Award
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=8dFrbVRup3Y" target="_blank" rel="noopener">
+    
+    Video 1
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://www.youtube.com/watch?v=v3Bk3JNA5nM" target="_blank" rel="noopener">
+    
+    Video 2
+  </a>
+
+  
+  
+  
+    
+  
+  
+  
+  
+  
+    
+  
+  <a class="btn btn-outline-primary my-1 mr-1 btn-sm" href="https://research.nd.edu/news/graduate-student-receives-jenlab-young-investigator-award/" target="_blank" rel="noopener">
+    
+    Featured News
+  </a>
+
+</p>
+
+  
+  
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="courses" class="home-section wg-pages   "  >
+    <div class="container">
+      
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+
+
+
+
+  
+
+
+<div class="row">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Courses</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+
+    
+
+    
+      
+        
+
+
+
+
+
+
+
+
+
+  
+
+
+<div class="card-simple">
+
+  
+    
+
+
+<div class="article-metadata">
+
+  
+  
+
+  
+  <span class="article-date">
+    
+    
+      
+    
+    Jun 3, 2025
+  </span>
+  
+
+  
+
+  
+
+  
+  
+  
+  <span class="middot-divider"></span>
+  <a href="/courses/example/ecen5006/#disqus_thread"></a>
+  
+
+  
+  
+
+</div>
+
+  
+
+  
+  
+  
+
+  <h3 class="article-title mb-1 mt-3">
+    <a href="/courses/example/ecen5006/">ECEN 5006: Biomedical Optical Imaging</a>
+  </h3>
+
+  
+  <div class="article-style">
+    <p>This graduate‐level course provides an in‐depth exploration of how optical principles can be applied to biomedical research and clinical diagnostics. Students will learn the foundational physics of light–tissue interactions, including absorption, fluorescence, and scattering, and will examine advanced imaging modalities such as fluorescence imaging, Raman spectroscopy, optical coherence tomography, diffuse optical methods, and photoacoustic tomography.</p>
+  </div>
+  
+
+  
+
+</div>
+
+      
+    
+
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+  
+  
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+  
+
+  
+  
+  
+
+  
+  
+  
+  
+  
+
+  
+  
+
+  <section id="contact" class="home-section wg-contact   "  >
+    <div class="container">
+      
+
+
+
+
+
+<div class="row contact-widget">
+  <div class="col-12 col-lg-4 section-heading">
+    <h1>Contact</h1>
+    
+  </div>
+  <div class="col-12 col-lg-8">
+    
+
+    
+
+    <ul class="fa-ul">
+
+      
+      <li>
+        <i class="fa-li fas fa-envelope fa-2x" aria-hidden="true"></i>
+        <span id="person-email"><a href="mailto:yide.zhang@colorado.edu">yide.zhang@colorado.edu</a></span>
+      </li>
+      
+
+      
+      <li>
+        <i class="fa-li fas fa-phone fa-2x" aria-hidden="true"></i>
+        <span id="person-telephone"><a href="tel:%28574%29%20303-8498">(574) 303-8498</a></span>
+      </li>
+      
+
+      
+      
+        
+        <li>
+          <i class="fa-li fas fa-map-marker fa-2x" aria-hidden="true"></i>
+          <span id="person-address">425 UCB, Boulder, CO 80309</span>
+        </li>
+      
+
+      
+
+      
+
+      
+
+      
+      
+
+    </ul>
+
+    
+    <div class="d-none">
+      <input id="map-provider" value="2">
+      <input id="map-lat" value="40.0075522760737">
+      <input id="map-lng" value="-105.26261825686221">
+      <input id="map-dir" value="425 UCB, Boulder, CO 80309">
+      <input id="map-zoom" value="15">
+      <input id="map-api-key" value="">
+    </div>
+    <div id="map"></div>
+    
+
+  </div>
+</div>
+
+    </div>
+  </section>
+
+
+
+      
+
+    
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.imagesloaded/4.1.4/imagesloaded.pkgd.min.js" integrity="sha256-lqvxZrPLtfffUl2G/e7szqSvPBILGbwmsGE1MKlOi0Q=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/3.0.6/isotope.pkgd.min.js" integrity="sha256-CBrpuqrMhXwcLLUd5tvQ4euBHCdh7wGlDfNz8vbu/iI=" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.5.7/jquery.fancybox.min.js" integrity="sha256-yt2kYMy0w8AbtF89WXb2P1rfjcP/HTHLT7097U8Y5b8=" crossorigin="anonymous"></script>
+
+      
+
+      
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/highlight.min.js" integrity="sha256-eOgo0OtLL4cdq7RdwRUiGKLX9XsIJ7nGhWEKbohmVAQ=" crossorigin="anonymous"></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.18.1/languages/r.min.js"></script>
+        
+      
+
+    
+
+    
+    
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet/1.5.1/leaflet.js" integrity="sha256-EErZamuLefUnbMBQbsEqu1USa+btR2oIlCpBJbyD4/g=" crossorigin="anonymous"></script>
+    
+
+    
+    
+    <script>const code_highlighting = true;</script>
+    
+
+    
+    
+    <script>const isSiteThemeDark = false;</script>
+    
+
+    
+    
+    
+    
+    
+    
+    <script>
+      const search_config = {"indexURI":"/index.json","minLength":1,"threshold":0.3};
+      const i18n = {"no_results":"No results found","placeholder":"Search...","results":"results found"};
+      const content_type = {
+        'post': "Posts",
+        'project': "Projects",
+        'publication' : "Publications",
+        'talk' : "Talks",
+        'slides' : "Slides"
+        };
+    </script>
+    
+
+    
+    
+
+    
+    
+    <script id="search-hit-fuse-template" type="text/x-template">
+      <div class="search-hit" id="summary-{{key}}">
+      <div class="search-hit-content">
+        <div class="search-hit-name">
+          <a href="{{relpermalink}}">{{title}}</a>
+          <div class="article-metadata search-hit-type">{{type}}</div>
+          <p class="search-hit-description">{{snippet}}</p>
+        </div>
+      </div>
+      </div>
+    </script>
+    
+
+    
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fuse.js/3.2.1/fuse.min.js" integrity="sha256-VzgmKYmhsGNNN4Ph1kMW+BjoYJM2jV5i4IlFoeZA9XI=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mark.js/8.11.1/jquery.mark.min.js" integrity="sha256-4HLtjeVgH0eIB3aZ9mLYF6E8oU5chNdjU6p6rrXpl9U=" crossorigin="anonymous"></script>
+    
+
+    
+    
+
+    
+    
+    <script>
+      if (window.netlifyIdentity) {
+        window.netlifyIdentity.on("init", user => {
+          if (!user) {
+            window.netlifyIdentity.on("login", () => {
+              document.location.href = "/admin/";
+            });
+          }
+        });
+      }
+    </script>
+    
+
+    
+    
+    <script id="dsq-count-scr" src="https://yzhang34.disqus.com/count.js" async></script>
+    
+
+    
+    
+    
+    
+    
+    
+    
+    
+    
+      
+    
+    
+    
+    
+    <script src="/js/academic.min.d5a58c5ce938d86bbc494ad25930812a.js"></script>
+
+    
+
+
+
+
+
+
+  
+  
+  <div class="container">
+    <footer class="site-footer">
+  
+
+  <p class="powered-by">
+    Contents © 2025 Yide Zhang
+  </p>
+
+  
+  
+
+
+
+
+
+
+  
+</footer>
+
+  </div>
+  
+
+  
+<div id="modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title">Cite</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <pre><code class="tex hljs"></code></pre>
+      </div>
+      <div class="modal-footer">
+        <a class="btn btn-outline-primary my-1 js-copy-cite" href="#" target="_blank">
+          <i class="fas fa-copy"></i> Copy
+        </a>
+        <a class="btn btn-outline-primary my-1 js-download-cite" href="#" target="_blank">
+          <i class="fas fa-download"></i> Download
+        </a>
+        <div id="modal-error"></div>
+      </div>
+    </div>
+  </div>
+</div>
+
+</body>
+</html>
